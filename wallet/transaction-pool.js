@@ -42,6 +42,10 @@ class TransactionPool {
 
         return valid_trx;
     }
+
+    clear(){
+        this.transactions = [];
+    }
 }
 
 module.exports = TransactionPool;
